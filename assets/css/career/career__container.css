@@ -1,0 +1,19 @@
+.career__container{
+
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    gap: 1.5rem;
+}
+@media screen and (max-width: 768px){
+    .career__container{
+
+        display: grid;
+        grid-template-columns: 100%;
+        
+        gap: 1.5rem;
+    }
+
+}

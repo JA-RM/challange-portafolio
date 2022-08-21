@@ -1,0 +1,19 @@
+.contact__form{
+    display: grid;
+    grid-template-rows: 25% 25% 25% 25%;
+    gap: 3rem;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+
+    .contact__form{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 3rem;
+        margin-right: 2rem;
+        margin-bottom: 1rem;
+    }
+
+}

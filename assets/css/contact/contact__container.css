@@ -1,0 +1,19 @@
+.contact__container{
+
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    gap: 1.5rem;
+}
+@media screen and (max-width: 768px) {
+    .contact__container{
+
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        text-align: center;
+        gap: 1.5rem;
+    }
+    
+}

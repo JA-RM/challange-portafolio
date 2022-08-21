@@ -1,0 +1,23 @@
+.education__container{
+
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    gap: 6rem;
+}
+
+@media screen and (max-width: 360px){
+
+    .education__container{
+
+        display: grid;
+        grid-template-columns: 100%;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        text-align: center;
+        gap: 6rem;
+    }
+    
+}

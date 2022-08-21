@@ -1,0 +1,26 @@
+.skills__img{
+    height: 10rem;
+    width: 10rem;
+}
+.skills__img:nth-child(1){
+    background-color: yellowgreen;
+}
+
+.skills__img:nth-child(2){
+    background-color: rgb(218, 108, 18);
+}
+
+.skills__img:nth-child(3){
+    background-color: rgb(231, 14, 14);
+}
+
+.skills__img:nth-child(4){
+    background-color: rgb(108, 108, 216);
+}
+
+.skills__img:nth-child(5){
+    background-color: rgb(15, 102, 12);
+}
+.skills__img:nth-child(6){
+    background-color: rgb(71, 162, 179);
+}
